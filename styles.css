@@ -1,0 +1,106 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family:   Verdana, sans-serif, Arial, sans-serif;
+}
+body{
+    background-color: antiquewhite;
+}
+
+.container{
+    background-image: url("fondo.jpg");
+    background-size: 150px;
+    width: 300px;
+    min-height: 400px;
+    margin: 25px auto;
+    padding: 8px;
+    border: 1px solid gray;
+    border-radius: 15px;
+    box-shadow: 0 0 10px #ccc;
+}
+.texto{
+    width: 250px;
+    margin: 50px auto;
+    text-align: center;
+    color: white;
+    background-color: #84006e;
+    border-radius:  10px;
+    padding: 5px;
+    box-shadow: 0 0 10px #000;
+}
+form{
+    width: 200px;
+    margin: 35px auto 0;
+    text-align: center;
+}
+form input{
+    padding: 3px;
+    border-radius: 5px;
+    text-align: center;
+}
+form button{
+    width: 50px;
+    height: 50px;
+    margin: 50px;
+    border-radius: 20px;
+    border: 1px solid white;
+    box-shadow: 0 0 2px #ccc inset;
+    background-color: purple;
+    color: white;
+}
+
+.flexx{
+    display: flex;
+}
+
+.caja{
+    width: 45px;
+    height: 38px;
+    background-image: url("btn.jpg");
+    background-size: 45px;
+    border-radius: 15px;
+    box-shadow: 0 0 2px #000;
+}
+#textoPista{
+    width: 190px;
+    margin-left: 25px;
+    padding: 4px;
+    border-radius: 15px;
+    opacity: 0;
+    background-color: #ccc;
+}
+#textoPista p{
+    color: #000;
+    font-size: 14px;
+    text-align: center;
+}
+.con-1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.boton-regresar{
+    width: 50px;
+    height: 50px;
+    border-radius: 20px;
+    border: 1px solid white;
+    box-shadow: 0 0 2px #ccc inset;
+    background-color: rgb(255, 192, 255);
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+}
+.texto-boleto{
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 50px;
+    width: auto;
+    padding: 20px 4px;
+    border-radius: 8px;
+    
+    background-color: #84006e;
+    box-shadow: 0 0 10px #000;
+    color: white;
+}
+.texto-boleto p{
+    margin-bottom: 12px;
+}
